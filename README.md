@@ -29,6 +29,7 @@ all ``applications`` and all modules will be cloned. You can do that by running:
 ### initialize <workspace_name> for the example-application (main branch)
 ```shell
 west init -m https://ask-pdas-platform@dev.azure.com/ask-pdas-platform/zephyr_playground/_git/zephyr_hello_ask --mr main <workspace_name>
+west init -m https://github.com/guentherweber/ci.git --mr main <workspace_name>
 ```
 
 ### update all Zephyr modules  (git sync)
